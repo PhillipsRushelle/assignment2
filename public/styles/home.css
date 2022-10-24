@@ -1,0 +1,90 @@
+
+
+body {
+    min-height: 100vh;  
+    background: #8ae77d;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 1500px;
+    margin-left: 100px;;
+}
+
+/* Content Container */
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.desc-container, .mission-container{
+    max-width: 700px;
+    max-height: 290px;
+}
+
+.description{
+    font-size: 30px;
+}
+
+.mission{
+    font-size: 25px;
+    font-weight: bold;
+    color: #f110e6;
+}
+
+.para-mission{
+    margin:0;
+    max-width: 400px;
+    color: #4C6793;
+    font-size: 18px;    
+}
+
+.img-logo{
+    width: 700px;
+    height: 700px;
+    margin-top: 70px;
+    margin-right: 150px;
+    object-fit: contain;
+}
+
+/* Button */
+.btn-container{
+    padding-top: 30px;  
+    padding-bottom: 100px;  
+}
+
+.learn{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5C2E7E;
+}
+
+.btn-about {
+    color: #ffffff;
+    background-color: #4C6793;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    padding: 20px 32px;
+}
+
+.btn-about:hover,
+.btn-about:focus {
+    background-color: #82a9e7;
+    transform: scale(1.1);
+}

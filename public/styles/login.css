@@ -1,0 +1,34 @@
+
+
+body {
+    min-height: 100vh;  
+    background: #8ae77d;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+/* Login button */
+.btn-login {
+    color: #0d940d;
+    background-color: #8BBCCC;
+    border-style: none;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    background-color: #1381a5;
+}
+
+/* Cancel button */
+.btn-cancel {
+    color: #8a1b1b;
+    border-style: none;
+}
+
+

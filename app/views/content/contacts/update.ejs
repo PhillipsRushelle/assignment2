@@ -1,0 +1,55 @@
+<!-- Name: Andrea Cavalcanti Nascimento | Student Number: 301250129
+Date: Oct 21th, 2022 -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="./styles/update.css" />
+
+<div class="container">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <h1 class="title"><%= title %></h1>
+
+            <form class="form" method="POST">
+                <input type="hidden" name="id" value="<%= contacts._id %>" >
+                <div class="form-group">
+                    <label for="nameTextField">Business Contact</label>
+                    <input type="text" class="form-control"
+                    id="nameTextField"
+                    placeholder="Enter the Business Contact"
+                    name="name" 
+                    value="<%= contacts.name %>"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="authorTextField">Phone Number</label>
+                    <input type="number" class="form-control"
+                    id="authorTextField"
+                    placeholder="Enter the Phone Number"
+                    name="phone" 
+                    value="<%= contacts.phone %>"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="publishedTextField">Email</label>
+                    <input type="text" class="form-control"
+                    id="publishedTextField"
+                    placeholder="Enter the Email"
+                    name="email" 
+                    value="<%= contacts.email %>"
+                    required>
+                </div>
+
+
+                <button class="btn btn-primary btn-submit" type="submit">
+                    <i class="fas fa-edit"></i> Submit</button>
+                
+                    <a href="/contacts-list" class="btn btn-warning btn-cancel">
+                        <i class="fas fa-undo"></i> Cancel</a>
+
+            </form>
+        </div>
+
+    </div>
+</div>

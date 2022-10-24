@@ -1,0 +1,41 @@
+
+body {
+    min-height: 100vh;
+    background: #8ae77d;  
+}
+
+.title{
+    text-align: center;
+    border-bottom: 5px solid #622291;
+    margin: 0 62px 30px 62px;
+    padding-top: 50px;
+    padding-bottom: 3px;
+    font-size: 200%;
+}
+
+/* Section Containers = Services 1 + Services 2 */
+.container-services1, .container-services2{
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    max-width: 900px;
+    max-height: 290px;
+    margin: auto; 
+}
+
+.list-style{
+    list-style-image: linear-gradient(to left bottom, #72aec2, #5f367c);
+    font-size: 1.4em;
+    color: #a19797;
+}
+
+.img-services{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.img-services:hover{
+    transform: scale(1.1);
+}

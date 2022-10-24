@@ -1,0 +1,31 @@
+<!-- Name: Rushelle Phillips | Student Number: 300508161
+Date: Oct 22th, 2022 -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="./styles/contact.css" />
+<title>Contact</title>
+
+<!-- main container -->
+<div class="main-container">
+    <div class="section-container">
+        <h2 class="title-sm">Welcome to the <%= title %> page</h2>  
+        <p class="para">Please use the form below to contact me or ask any question you might have.
+            <a href="mailto:rushellew9@gmail.com? subject=subject text" class="link-email"> rushellew9@gmail.com             
+            </a>
+        </p>
+
+        <!-- contact me form -->    
+        <form>
+            <label class="label-form" for="name">First Name:</label><br>
+            <input class="input-form"  id="firstName" type="text" autofocus="true" placeholder="Enter your first name" required><br>
+            <label class="label-form" for="name">Last Name:</label><br>
+            <input class="input-form" id="lastName" type="text" autofocus="true" placeholder="Enter your last name"><br>
+            <label class="label-form" for="email">Email Address:</label><br>
+            <input class="input-form" id="emailAddress" type="email" placeholder="Enter your email address" required><br>
+            <label class="label-form" for="message">Phone Number:</label><br>
+            <textarea class="text-area-form" id="userMessage" placeholder="Enter your message" required></textarea><br>
+            <input  class="btn-submit" type="submit" value="Send Message" onclick="clickSend()">
+        </form>
+ 
+<!-- java script -->
+<script src="./scripts/app.js"></script>  
